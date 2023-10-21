@@ -10,6 +10,7 @@ struct HolmesIV
 
 void make_sentient(HolmesIV* mike)
 {
+  if(mike == nullptr) return;
   mike->is_sentient = true;
 }
 
